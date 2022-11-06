@@ -1,0 +1,21 @@
+.dashboard-show {
+  @media screen and (max-width: 1500px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    padding: 0.25em;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+  }
+
+  h3 {
+    padding: 0.25em;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+  }
+}
