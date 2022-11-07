@@ -1,7 +1,4 @@
-// Place all the styles related to the admin/categories controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
-.admin-categories-index {
+.admin-products-index {
   @media screen and (max-width: 1500px) {
     grid-template-columns: 1fr 1fr;
   }
@@ -14,10 +11,6 @@
     padding: 0.25em;
     color: rgba(0, 0, 0, 1);
     font-weight: 700;
-  }
-
-  .admin {
-    width: auto;
   }
 
   .new-button {
