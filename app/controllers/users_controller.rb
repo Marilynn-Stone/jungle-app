@@ -9,12 +9,14 @@ class UsersController < ApplicationController
 
     # Store all emails in lowercase to avoid duplicates and case-sensitive login errors.
     @user.email.downcase!  
+    
+
   end
 
   private
 
   def user_params
-    params.require(:user).permit(:name, :email, :password, :password_confirmations)
+    params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
-  
+
 end
